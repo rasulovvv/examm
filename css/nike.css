@@ -1,0 +1,41 @@
+.nike__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nike__content {
+  width: 380px;
+}
+
+.nike__title {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  line-height: 120%;
+  font-size: 50px;
+}
+
+.nike__link {
+  display: inline-block;
+  font-family: 'Roboto';
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #EA625C;
+  padding: 12px 38px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.nike__link:hover {
+  background-color: #d85953;
+}
+/*# sourceMappingURL=nike.css.map */

@@ -1,0 +1,54 @@
+.hero{
+    padding: 85px 0 95px 0;
+    border-bottom: 2px solid #DDDDDD;
+}
+.hero__main{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.hero__title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    color: #000000;
+    margin: 0;
+}
+.hero__descrip{
+    padding-left: 40px;
+    width:480px;
+    border-left: 3px solid #888888;
+}
+.hero__text{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 30px 0 30px 0;
+    color: #777777
+}
+.hero__link{
+    display: inline-block;
+    font-family: 'Roboto';
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #EA625C;
+    padding: 12px 38px;
+    transition: all 0.2s;
+    &:hover{
+        background-color: #d85953;
+    }
+}
+.hero__bg {
+    width: 430px;
+    position: absolute;
+    z-index: -1;
+    top: -27px;
+    right: -170px;
+}

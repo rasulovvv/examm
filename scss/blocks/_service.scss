@@ -1,0 +1,55 @@
+.service{
+    padding:70px;
+}
+.service__item{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.service__title{
+    font-size: 18px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #222222;   
+}
+.service__descr{
+    width: 280px;
+}
+.service__text{
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 160%;
+    color: #333333;
+}
+.service__element{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: #DDDDDD;
+    margin: 0 10px 0 0;
+}
+.service__line {
+    display: inline-block;
+    width: 40px;
+    border: 3px solid #EA625C;
+    transition: all 0.2s;
+    cursor: pointer;
+    &:hover{
+        width: 60px;
+    }
+}
+.service__learn{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 160%;
+    color: #EA625C;
+    text-transform: uppercase;
+    margin: 0 0 0 3px;
+    text-decoration: none;
+    &:hover{
+        .service__line {
+                width: 60px;
+        }
+    }
+}

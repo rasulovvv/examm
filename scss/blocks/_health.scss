@@ -1,0 +1,33 @@
+.health{
+    background-image: url(../images/runners.jpg);
+    padding: 244px 0;
+}
+.health__item{
+    margin-right: auto;
+}
+.health__info{
+    margin: 0 0 0 500px;
+}
+.health__title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    color: #000000;
+    margin: 0;
+    color: #fff;
+}
+.health__descrip{
+    padding-left: 40px;
+    width:480px;
+    border-left: 3px solid #fff;
+}
+.health__text{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 30px 0 30px 0;
+    color: #ffff
+}
